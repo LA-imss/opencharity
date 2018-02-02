@@ -1,0 +1,122 @@
+@media all and (max-width: 1680px) {
+  
+}
+
+@media all and (max-width: 1440px) {
+  
+}
+
+@media all and (max-width: 1200px) {
+  .blog--post:nth-child(4) {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  h1 {
+    font-size: 1.5625rem;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 1.0625rem;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  .width {
+    padding: 0 30px;
+  }
+  .get-involved--card, .our-mission--card, .blog--post {
+    padding: 15px 10px;
+    margin: 15px 10px;
+  }
+  .get-involved--card img {
+    width: 100px;
+  }
+  .get-involved--card--registration a {
+    padding: 10px 40px;
+  }
+  .our-mission--card--image {
+    margin-top: -50px;
+  }
+  .our-mission--card--image img {
+    width: 60px;
+  }
+  .our-members--slide img {
+    width: 90px;
+    margin: 10px;
+  }
+}
+
+@media all and (max-width: 860px) {
+  .width {
+    padding: 0 20px;
+  }
+  .get-involved--content, .our-mission--content, .blog--content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .get-involved--card {
+    max-width: 340px;
+  }
+  .our-mission-intro {
+    padding: 35px 0;
+  }
+  .our-mission--content {
+    padding-bottom: 15px;
+  }
+  .our-mission--card {
+    margin-top: 50px;
+  }
+  .blog--content:before, .blog--content:after {
+    display: none;
+  }
+  .blog--post:nth-child(3) {
+    display: none;
+  }
+  .blog--post {
+    max-width: 350px;
+  }
+}
+
+@media all and (max-width: 680px) {
+  #header, .logo {
+    padding: 10px 0 0;
+  }
+  .logo, .navigation, .next-event--description, .next-event--registration {
+    display: block;
+    text-align: center;
+  }
+  .logo, .next-event--description {
+    padding-bottom: 30px;
+  }
+  .menu li {
+    padding-left: 20px;
+  }
+  .our-members--slide {
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-members--slide img {
+    padding-top: 15px;
+  }
+  .copyright {
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .menu, .menu li {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .get-involved--card, .our-mission--card, .blog--post {
+    padding: 15px 10px;
+  }
+  
+}

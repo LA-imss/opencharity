@@ -1,0 +1,1 @@
+<?php echo str_replace('<ul class="menu">', '<ul class="menu main-menu">', $content); ?>
